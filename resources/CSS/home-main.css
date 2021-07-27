@@ -1,0 +1,43 @@
+.main{
+    height: 90vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.my-img{
+    width: 30vw;
+    height: 40vh;
+}
+.content{
+    width: 50vw;
+    height: max-content;
+    position: relative;
+    z-index: 2;
+}
+.nrml-txt{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #f3c315;
+}
+#roles{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #f17ff1;
+    font-family: 'Otomanopee One', sans-serif;
+    text-shadow: 2px 2px 8px rgb(228, 83, 25);
+}
+#km-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px black;
+}
+#myimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    backdrop-filter: blur(2px);
+    position: relative;
+    z-index: 1;
+}

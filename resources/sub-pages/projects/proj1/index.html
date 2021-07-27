@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Food Page</title>
+    <style>
+      body {
+        background-color: #effdd9;
+        margin: 0;
+      }
+      header {
+        background-color: lightblue;
+        /* height: 100px; */
+        padding: 24px;
+      }
+      .header-text {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 8px;
+        /* display: inline-block;
+        font-size :24px;
+        font-weight: 900;
+        padding: 0px; */
+        /* margin: 15px; */
+        /* background-color: pink; */
+      }
+      .food-pics {
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .food-img {
+        width: 500px;
+        height: 500px;
+      }
+      .food-label {
+        font-size: 20px;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="header-text">Index</span>
+      <span class="header-text">Food</span>
+      <span class="header-text">About</span>
+    </header>
+    <main>
+      <h3 style="padding-left:24px; font-size:20px">Top 5 Favourite Foods :</h3>
+      <ul>
+        <li style="font-size:20px"><a href="#biryani">Biryani</a></li>
+        <li style="font-size:20px"><a href="#pizza">Pizza</a></li>
+        <li style="font-size:20px"><a href="#lasagna">Lasagna</a></li>
+        <li style="font-size:20px"><a href="#burger">Burger</a></li>
+        <li style="font-size:20px"><a href="#caesar">Caesar Salad</a></li>
+      </ul>
+    </main>
+    <footer>
+      <div class="food-pics">
+        <img src="biryani.jpeg" alt="Biryani" class="food-img" id="biryani">
+        <p class="food-label">Biryani</p>
+      </div>
+      <div class="food-pics">
+        <img src="pizza.jpeg" alt="Pizza" class="food-img" id="pizza">
+        <p class="food-label">Pizza</p>
+      </div>
+      <div class="food-pics">
+        <img src="lasagna.jpeg" alt="Lasagna" class="food-img" id="lasagna">
+        <p class="food-label">Lasagna</p>
+      </div>
+      <div class="food-pics">
+        <img src="burger.jpeg" alt="Burger" class="food-img" id="burger">
+        <p class="food-label">Burger</p>
+      </div>
+      <div class="food-pics">
+        <img src="caesar.jpeg" alt="Caesar Salad" class="food-img" id="caesar">
+        <p class="food-label">Caesar Salad</p>
+      </div>
+    </footer>
+  </body>
+</html>
