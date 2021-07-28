@@ -182,7 +182,7 @@ function htog3(){
         document.getElementById("htog3-sign").innerHTML = "&or;";
     }
     else{
-        htog1_open = true;
+        htog3_open = true;
         document.getElementById("htog3-sign").innerHTML = "&and;";
     }
 }
